@@ -2,10 +2,10 @@
 A machine learning project addressing class imbalance in insurance claim datasets using Python.
 
 ### Overview
-This project tackles the challenge of imbalanced data in classification tasks, where the majority class (no claims) vastly outnumbers the minority class (claims). Using an insurance claim dataset (58,592 entries, 41 features), we:
-      Perform exploratory data analysis (EDA) to visualize class imbalance and feature distributions.
-      Apply oversampling (to balance classes) and feature selection (to identify key predictors).
-      Train a Random Forest classifier and evaluate performance using metrics like precision, recall, and F1-score.
+      This project tackles the challenge of imbalanced data in classification tasks, where the majority class (no claims) vastly outnumbers the minority class (claims). Using an insurance claim dataset (58,592 entries, 41 features), we:
+            Perform exploratory data analysis (EDA) to visualize class imbalance and feature distributions.
+            Apply oversampling (to balance classes) and feature selection (to identify key predictors).
+            Train a Random Forest classifier and evaluate performance using metrics like precision, recall, and F1-score.
       
 ### Key Result: The model achieves 99% accuracy with 98% precision and 100% recall for the minority class.
 
@@ -15,20 +15,6 @@ This project tackles the challenge of imbalanced data in classification tasks, w
       Feature Selection: Random Forest-based importance ranking
       Model: Random Forest Classifier
       Evaluation Metrics: Precision, Recall, F1-Score, AUROC
-
-### Model Performance
-      Classification Report:
-      Class            	Precision	Recall	F1-Score	Support
-      0 (No Claim)	1.00	      0.98	      0.99	      16,574
-      1 (Claim)	      0.98	      1.00      	0.99      	16,333
-      Accuracy			                  0.99	      32,907
-      Macro Avg	      0.99	      0.99      	0.99      	32,907
-      Weighted Avg	0.99	      0.99	      0.99	      32,907
-
-### Interpretation:
-      Class 0 (No Claim): Perfect precision (1.00), high recall (0.98).
-      Class 1 (Claim): Near-perfect recall (1.00), precision (0.98).
-      Macro/Weighted Averages: 0.99 across all metrics, indicating balanced performance.
 
 ### Key Steps
       1.Exploratory Data Analysis (EDA)
