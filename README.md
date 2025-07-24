@@ -1,4 +1,4 @@
-Classification on Imbalanced Data: Insurance Claim Prediction
+**Classification on Imbalanced Data: Insurance Claim Prediction**
 A machine learning project addressing class imbalance in insurance claim datasets using Python.
 
 Overview
