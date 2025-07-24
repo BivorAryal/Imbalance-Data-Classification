@@ -17,14 +17,13 @@ This project tackles the challenge of imbalanced data in classification tasks, w
       Evaluation Metrics: Precision, Recall, F1-Score, AUROC
 
 ### Model Performance
-Classification Report:
-
-Class            	Precision	Recall	F1-Score	Support
-0 (No Claim)	1.00	      0.98	      0.99	      16,574
-1 (Claim)	      0.98	      1.00      	0.99      	16,333
-Accuracy			                  0.99	      32,907
-Macro Avg	      0.99	      0.99      	0.99      	32,907
-Weighted Avg	0.99	      0.99	      0.99	      32,907
+      Classification Report:
+      Class            	Precision	Recall	F1-Score	Support
+      0 (No Claim)	1.00	      0.98	      0.99	      16,574
+      1 (Claim)	      0.98	      1.00      	0.99      	16,333
+      Accuracy			                  0.99	      32,907
+      Macro Avg	      0.99	      0.99      	0.99      	32,907
+      Weighted Avg	0.99	      0.99	      0.99	      32,907
 
 ### Interpretation:
       Class 0 (No Claim): Perfect precision (1.00), high recall (0.98).
@@ -32,17 +31,17 @@ Weighted Avg	0.99	      0.99	      0.99	      32,907
       Macro/Weighted Averages: 0.99 across all metrics, indicating balanced performance.
 
 ### Key Steps
-1.Exploratory Data Analysis (EDA)
-      - Visualized class imbalance and feature distributions.
-      - Analyzed correlations between features and claim_status.
-2.Handling Class Imbalance
-      - Used oversampling (minority class replicated) to balance classes (54,844 entries each).
-3.Feature Selection
-      - Identified top 10 influential features (e.g., customer_age, vehicle_age, region_code).
-      - Dropped non-predictive features like policy_id.
-4.Model Training & Evaluation
-      - Trained a Random Forest Classifier on the balanced dataset.
-      - Achieved 99% accuracy with high recall (100%) for the minority class.
+      1.Exploratory Data Analysis (EDA)
+            - Visualized class imbalance and feature distributions.
+            - Analyzed correlations between features and claim_status.
+      2.Handling Class Imbalance
+            - Used oversampling (minority class replicated) to balance classes (54,844 entries each).
+      3.Feature Selection
+            - Identified top 10 influential features (e.g., customer_age, vehicle_age, region_code).
+            - Dropped non-predictive features like policy_id.
+      4.Model Training & Evaluation
+            - Trained a Random Forest Classifier on the balanced dataset.
+            - Achieved 99% accuracy with high recall (100%) for the minority class.
 
 
 
