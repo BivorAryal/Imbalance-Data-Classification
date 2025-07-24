@@ -1,7 +1,7 @@
-      Classification on Imbalanced Data: Insurance Claim Prediction
+Classification on Imbalanced Data: Insurance Claim Prediction
 A machine learning project addressing class imbalance in insurance claim datasets using Python.
 
-Overview
+📌 Overview
 This project tackles the challenge of imbalanced data in classification tasks, where the majority class (no claims) vastly outnumbers the minority class (claims). Using an insurance claim dataset (58,592 entries, 41 features), we:
 
 Perform exploratory data analysis (EDA) to visualize class imbalance and feature distributions.
